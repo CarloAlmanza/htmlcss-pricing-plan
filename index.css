@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header div:first-child h1 {
+    font-size: 40px;
+}
+
+.header div:first-child p {
+    font-size: 12px;
+}
+
+.header div:last-child {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
