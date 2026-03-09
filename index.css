@@ -41,9 +41,10 @@
     flex-shrink: 0;
     padding: 20px;
     flex-direction: column;
-    min-width: 330px;
+    min-width: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
 }
 
 .price {
@@ -100,4 +101,14 @@ ul {
 li {
     padding: 5px;
     margin-bottom: 5px;
+}
+
+.plan:nth-child(2) {
+    color: white;
+    background-color: rgb(101 0 255);
+}
+
+.plan:nth-child(2) .bottone {
+    color: rgb(101 0 255);
+    background-color: white;
 }
