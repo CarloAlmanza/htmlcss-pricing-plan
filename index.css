@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -111,4 +115,17 @@ li {
 .plan:nth-child(2) .bottone {
     color: rgb(101 0 255);
     background-color: white;
+}
+
+.plan:nth-child(3) .features ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.plan:nth-child(3) .features ul li {
+    flex: 1 1 300px;
+    box-sizing: border-box;
 }
